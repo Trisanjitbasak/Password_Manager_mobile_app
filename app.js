@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     
     // Here, the master password is hardcoded for simplicity
     // In a real application, you should use a more secure method
-    const storedMasterPassword = 'password123';
+    const storedMasterPassword = 'admin123';
     
     if (masterPassword === storedMasterPassword) {
         // Redirect to dashboard
